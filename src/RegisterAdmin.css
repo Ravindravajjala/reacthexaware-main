@@ -1,0 +1,25 @@
+/* Add this CSS to your stylesheet */
+.register-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .register-form {
+    width: 400px; /* Adjust the width as needed */
+    padding: 30px;
+    border: 1px solid #b22828;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px; /* Equal spacing around the form */
+    text-align: center; /* Center align form elements */
+  }
+  
+  .form-group {
+    margin-bottom: 10px; /* Adjust the spacing between form elements */
+  }
+  
+ 
+ 

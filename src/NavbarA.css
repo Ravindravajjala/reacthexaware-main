@@ -1,0 +1,6 @@
+/* Add this CSS to your stylesheet */
+.navbar-nav .nav-link:hover {
+    text-decoration: underline; /* Underline the link text */
+    color: rgb(205, 125, 50); /* Change the text color to highlight */
+  }
+  

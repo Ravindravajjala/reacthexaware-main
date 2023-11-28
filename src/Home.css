@@ -1,0 +1,52 @@
+/* Home.css */
+
+.login-container {
+  display: flex;
+  justify-content: center; /* Horizontally center the login column */
+  align-items: center; /* Vertically center the login column */
+  height: 100vh; /* Adjust the height as needed */
+  background-image: url('https://play-lh.googleusercontent.com/6QFqfrMZtLWZsLOHhGvFGAtqMb6YvgNV42d4FSTwpKi41QlUpisPhQ54IpAR7u0YC06BEKo0qPiJ=w648-h364-rw'); /* Add your background image URL here */
+  background-size: cover; /* Ensure the image covers the entire container */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the background image */
+}
+
+.login-column {
+  text-align: center;
+  padding: 75px 200px; /* Add padding to create spacing */
+  background-color: rgba(255, 255, 255, 0.8); /* Add a semi-transparent white background to the login column */
+}
+
+.login-column > h2 {
+  margin-bottom: 20px; /* Add margin to the heading for spacing */
+}
+
+.login-column > div {
+  margin-bottom: 10px; /* Add margin to create spacing between input fields and buttons */
+}
+
+.login-column > div > input[type="emailAddress"],
+.login-column > div > input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin to create spacing between input fields */
+}
+
+.login-column > div > button {
+  width: 150%;
+  padding: 10px;
+  margin-bottom: 10px; /* Add margin to create spacing between buttons */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.login-column > div > button:last-child {
+  margin-bottom: 0; /* Remove margin from the last button to avoid extra space */
+}
+
+.login-column > div > button:hover {
+  background-color: #0056b3;
+}

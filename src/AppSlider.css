@@ -1,0 +1,23 @@
+
+/* AppSlider.css */
+.app-slider-container {
+  width: 100vw; /* 100% of the viewport width */
+  height: 100vh; /* 100% of the viewport height */
+}
+ 
+.app-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200%;
+  text-align: center;
+}
+ 
+.app-slide img {
+  max-width: 100%; /* Make sure the image does not exceed its container */
+  max-height: 80vh; /* Adjust as needed */
+  margin: 100px auto 0; /* Add a 20px top margin, center horizontally */
+  display: block; /* Remove any default inline spacing */
+}
+ 
