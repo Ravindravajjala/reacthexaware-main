@@ -35,9 +35,11 @@ export function EmailForm() {
 
       if (jsonData.length === 0) {
         setNoReviewsMessage('No reviews to display.');
+        setShowTable(false);
       } else {
         setData(jsonData);
         setShowTable(true);
+        setNoReviewsMessage('');
       }
 
       console.log(jsonData);

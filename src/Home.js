@@ -13,10 +13,11 @@ function App() {
       setLoginMessage('Fill in both email and password');
       return;
     }
-
     try {
       const adminResponse = await fetch('http://localhost:5001/api/Admin/GetAllAdmins');
       const userResponse = await fetch('http://localhost:5001/api/User/GetAllUsers');
+
+      console.log(adminResponse);
 
       if (adminResponse.ok && userResponse.ok) {
         const adminData = await adminResponse.json();
@@ -43,6 +44,8 @@ function App() {
       setLoginMessage('An error occurred while logging in');
     }
   };
+
+   
 
   const handleRegisterClick = () => {
     navigate('/RegisterUser'); 

@@ -31,7 +31,12 @@ export function EmailForm1() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await fetch(`http://localhost:5001/api/Display/AppNameAndReviewByEmail/${email}`);
+      const response = await fetch(`http://localhost:5001/api/Display/AppNameAndReviewByEmail/${email}`,{
+        
+          headers:{
+            Authorization:`Bearer ${localStorage.getItem('token')}`,
+        }
+    });
       const jsonData = await response.json();
       setData(jsonData);
     } catch (error) {

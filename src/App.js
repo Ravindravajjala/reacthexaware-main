@@ -6,7 +6,7 @@ import Apps from './Apps';
 import AddNewApp from './AddNewApp';
 import EmailForm from './EmailForm';
 import EmailForm1 from './EmailForm1';
-// import AppReviews from './AppReviews';
+import AppReviews from './AppReviews';
 import AdminLogout from './AdminLogout';
 import LoginUser from './LoginUser';
 import RegisterUser from './RegisterUser';
@@ -49,7 +49,7 @@ function App() {
       <Route path="/AddNewReview1" element={<AuthWrapper><AddNewReview1 /></AuthWrapper>}></Route>
       <Route path="/EmailForm" element={<AuthWrapper><EmailForm /></AuthWrapper>}></Route>
       <Route path="/EmailForm1" element={<AuthWrapper><EmailForm1 /></AuthWrapper>}></Route>
-      {/* <Route path="/AppReviews" element={<AppReviews />}></Route> */}
+      <Route path="/AppReviews" element={<AuthWrapper><AppReviews /></AuthWrapper>}></Route>
       <Route path="/Review" element={<AuthWrapper><Review /></AuthWrapper>}></Route>
       <Route path="/GetAppImages" element={<AuthWrapper><GetAppImages/></AuthWrapper>}></Route>
       <Route path="/AdminProfile" element={<AuthWrapper><AdminProfile/></AuthWrapper>}></Route>

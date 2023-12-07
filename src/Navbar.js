@@ -8,7 +8,7 @@ function Layout() {
     <div>
       <nav className="navbar navbar-expand-lg bg-light fixed-top">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#" style={{ fontWeight: 'bold', color: 'rgb(205, 125, 50)' }}>App Survey</a>
+          <a className="navbar-brand" href="#" style={{ fontWeight: 'bold', color: 'rgb(205, 125, 50)' }}>Trustspot AppSurvey</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls='navigation'></button>
             <ul className="navbar-nav ms-auto">
             <div className="navbar-nav">

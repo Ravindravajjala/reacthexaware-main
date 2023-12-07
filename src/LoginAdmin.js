@@ -50,7 +50,8 @@ export function LoginAdmin() {
   const getAllAdminDetails = async () => {
     try {
       // Make an API call to your backend to fetch all admin details
-      const response = await fetch('https://localhost:5001/api/Admin/GetAllAdmins');
+      const response = await fetch('http://localhost:5001/api/Admin/login');
+      console.log(response);
       if (response.ok) {
         const adminDetails = await response.json();
         return adminDetails;
